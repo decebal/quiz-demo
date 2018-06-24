@@ -1,5 +1,5 @@
 build-deps:
-	godep save ./...
+	dep ensure
 
 test:
 	ginkgo ./test/...

@@ -35,6 +35,9 @@ log: logs
 logs:
 	docker-compose logs
 
+env:
+	cp .env.example .env
+
 envs:
 	docker-compose run $(SERVICE) env
 
