@@ -1,5 +1,7 @@
 SERVICE=backend	
 
+run: up
+
 build-deps:
 	$(MAKE) -C ./$(SERVICE) MAKEFLAGS=build-deps
 
@@ -11,8 +13,6 @@ build:
 
 build-with-deps: build-deps
 	docker-compose build --no-cache
-
-run: up
 
 start: up
 
@@ -31,6 +31,9 @@ rm:
 	docker-compose rm -f
 
 log: logs
+
+logf:
+	docker-compose logs --follow
 
 logs:
 	docker-compose logs
