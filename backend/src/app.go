@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/typenil/go-docker/backend/src/api"
+	"github.com/decebal/go-docker/backend/src/api"
 	"gopkg.in/gin-gonic/gin.v1"
 )
 

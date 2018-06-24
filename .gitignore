@@ -6,6 +6,8 @@
 # Folders
 _obj
 _test
+backend/_vendor-20180624160402
+backend/vendor
 
 # Architecture specific extensions/prefixes
 *.[568vq]
