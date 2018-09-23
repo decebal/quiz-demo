@@ -1,3 +1,7 @@
+
+# quiz-demo
+
+
 ### Basic Api with Health Check With Docker Compose
 
 #### Make Commands
@@ -66,6 +70,3 @@ At least:
     Docker Machine v0.5.0
     make   
 
-### Credits
-
-Fork of [Go Docker](https://github.com/typenil/go-docker)
